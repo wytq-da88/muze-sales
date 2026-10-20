@@ -13,7 +13,7 @@ window.MUZE_DATA = {
       "name": "张贺凯",
       "mobile": "13932113939",
       "landline": "0311-89229961",
-      "regionText": "张家口、承德、秦皇岛、沧州、衡水、内蒙东（呼和浩特以东）",
+      "regionText": "张家口、承德、秦皇岛、沧州、衡水，内蒙东（以呼市为界·呼和浩特以东）",
       "regions": [
         { "type": "city", "name": "张家口" },
         { "type": "city", "name": "承德" },
@@ -53,7 +53,7 @@ window.MUZE_DATA = {
       "name": "陈日",
       "mobile": "15003212112",
       "landline": "0311-89229961",
-      "regionText": "山西、内蒙西（呼和浩特以西，乌海、巴盟、阿拉善除外）",
+      "regionText": "山西，内蒙西（以呼市为界·呼和浩特以西，乌海、巴盟、阿拉善除外）",
       "regions": [
         { "type": "province", "name": "山西" },
         { "type": "province", "name": "内蒙古", "label": "内蒙古（西部）", "excluded": ["乌海", "巴彦淖尔", "阿拉善盟"] }
@@ -77,7 +77,7 @@ window.MUZE_DATA = {
       "name": "黎孟",
       "mobile": "15233627393",
       "landline": "0311-89229961",
-      "regionText": "陕西、宁夏、内蒙西部（乌海、巴盟、阿拉善）",
+      "regionText": "陕西、宁夏，内蒙西部（以呼市为界·呼和浩特以西：乌海、巴盟、阿拉善）",
       "regions": [
         { "type": "province", "name": "陕西" },
         { "type": "province", "name": "宁夏" },

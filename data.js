@@ -10,16 +10,12 @@ window.MUZE_DATA = {
   "managers": [
     {
       "id": 1,
-      "name": "张贺凯",
+      "name": "张鹤凯",
       "mobile": "13932113939",
       "landline": "0311-89229961",
-      "regionText": "张家口、承德、秦皇岛、沧州、衡水，内蒙东（以呼市为界·呼和浩特以东）",
+      "regionText": "河北（除保定、石家庄、邢台、邯郸），内蒙东（以呼市为界·呼和浩特以东）",
       "regions": [
-        { "type": "city", "name": "张家口" },
-        { "type": "city", "name": "承德" },
-        { "type": "city", "name": "秦皇岛" },
-        { "type": "city", "name": "沧州" },
-        { "type": "city", "name": "衡水" },
+        { "type": "province", "name": "河北", "label": "河北（除保定、石家庄、邢台、邯郸）", "excluded": ["保定", "石家庄", "邢台", "邯郸"] },
         { "type": "province", "name": "内蒙古", "label": "内蒙古（东部·呼和浩特以东）", "excluded": ["乌海", "巴彦淖尔", "阿拉善盟", "鄂尔多斯"] },
         { "type": "province", "name": "内蒙东", "label": "内蒙古（东部·呼和浩特以东）", "excluded": ["乌海", "巴彦淖尔", "阿拉善盟", "鄂尔多斯"] }
       ]
@@ -43,9 +39,12 @@ window.MUZE_DATA = {
       "name": "管业",
       "mobile": "13653218595",
       "landline": "0311-89229961",
-      "regionText": "河北西部、南部、黑龙江、保定、邢台、邯郸",
+      "regionText": "河北（保定、石家庄、邢台、邯郸）、黑龙江",
       "regions": [
-        { "type": "province", "name": "河北", "label": "河北（西部、南部）", "excluded": ["张家口", "承德", "秦皇岛", "沧州", "衡水"] },
+        { "type": "city", "name": "保定" },
+        { "type": "city", "name": "石家庄" },
+        { "type": "city", "name": "邢台" },
+        { "type": "city", "name": "邯郸" },
         { "type": "province", "name": "黑龙江" }
       ]
     },

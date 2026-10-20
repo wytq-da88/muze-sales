@@ -20,7 +20,8 @@ window.MUZE_DATA = {
         { "type": "city", "name": "秦皇岛" },
         { "type": "city", "name": "沧州" },
         { "type": "city", "name": "衡水" },
-        { "type": "province", "name": "内蒙古", "label": "内蒙古（东部·呼和浩特以东）", "excluded": ["乌海", "巴彦淖尔", "阿拉善盟", "鄂尔多斯"] }
+        { "type": "province", "name": "内蒙古", "label": "内蒙古（东部·呼和浩特以东）", "excluded": ["乌海", "巴彦淖尔", "阿拉善盟", "鄂尔多斯"] },
+        { "type": "province", "name": "内蒙东", "label": "内蒙古（东部·呼和浩特以东）", "excluded": ["乌海", "巴彦淖尔", "阿拉善盟", "鄂尔多斯"] }
       ]
     },
     {
@@ -56,7 +57,8 @@ window.MUZE_DATA = {
       "regionText": "山西，内蒙西（以呼市为界·呼和浩特以西，乌海、巴盟、阿拉善除外）",
       "regions": [
         { "type": "province", "name": "山西" },
-        { "type": "province", "name": "内蒙古", "label": "内蒙古（西部）", "excluded": ["乌海", "巴彦淖尔", "阿拉善盟"] }
+        { "type": "province", "name": "内蒙古", "label": "内蒙古（西部）", "excluded": ["乌海", "巴彦淖尔", "阿拉善盟"] },
+        { "type": "province", "name": "内蒙西", "label": "内蒙古（西部·呼和浩特以西）", "excluded": ["乌海", "巴彦淖尔", "阿拉善盟"] }
       ]
     },
     {
@@ -83,7 +85,8 @@ window.MUZE_DATA = {
         { "type": "province", "name": "宁夏" },
         { "type": "city", "name": "乌海" },
         { "type": "city", "name": "巴彦淖尔" },
-        { "type": "city", "name": "阿拉善盟" }
+        { "type": "city", "name": "阿拉善盟" },
+        { "type": "province", "name": "内蒙西", "label": "内蒙古（西部）" }
       ]
     },
     {

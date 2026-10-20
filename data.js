@@ -5,7 +5,7 @@ window.MUZE_DATA = {
   "brand": "河北牧泽农牧机械有限公司",
   "title": "买 青贮机 花生播种机 铺膜播种机",
   "subtitle": "牧泽销售服务通讯录 · 8 名业务员，按区域为您对接",
-  "updatedAt": "2026-10-19",
+  "updatedAt": "2026-10-20",
   "hotRegions": ["河北", "河南", "山东", "山西", "陕西", "新疆", "江苏", "黑龙江", "吉林", "湖北", "安徽", "辽宁", "四川", "宁夏", "国外"],
   "managers": [
     {
@@ -13,15 +13,14 @@ window.MUZE_DATA = {
       "name": "张贺凯",
       "mobile": "13932113939",
       "landline": "0311-89229961",
-      "regionText": "河北北部、东部、天津、内蒙东、辽宁",
+      "regionText": "张家口、承德、秦皇岛、沧州、衡水、内蒙东（呼和浩特以东）",
       "regions": [
-        { "type": "province", "name": "河北" },
-        { "type": "province", "name": "天津" },
-        { "type": "province", "name": "辽宁" },
-        { "type": "city", "name": "赤峰" },
-        { "type": "city", "name": "通辽" },
-        { "type": "city", "name": "兴安盟" },
-        { "type": "city", "name": "呼伦贝尔" }
+        { "type": "city", "name": "张家口" },
+        { "type": "city", "name": "承德" },
+        { "type": "city", "name": "秦皇岛" },
+        { "type": "city", "name": "沧州" },
+        { "type": "city", "name": "衡水" },
+        { "type": "province", "name": "内蒙古", "label": "内蒙古（东部·呼和浩特以东）", "excluded": ["乌海", "巴彦淖尔", "阿拉善盟", "鄂尔多斯"] }
       ]
     },
     {
@@ -43,9 +42,9 @@ window.MUZE_DATA = {
       "name": "管业",
       "mobile": "13653218595",
       "landline": "0311-89229961",
-      "regionText": "河北西部、南部、黑龙江",
+      "regionText": "河北西部、南部、黑龙江、保定、邢台、邯郸",
       "regions": [
-        { "type": "province", "name": "河北" },
+        { "type": "province", "name": "河北", "label": "河北（西部、南部）", "excluded": ["张家口", "承德", "秦皇岛", "沧州", "衡水"] },
         { "type": "province", "name": "黑龙江" }
       ]
     },
@@ -54,7 +53,7 @@ window.MUZE_DATA = {
       "name": "陈日",
       "mobile": "15003212112",
       "landline": "0311-89229961",
-      "regionText": "山西、内蒙西部（乌海、巴盟、阿拉善除外）",
+      "regionText": "山西、内蒙西（呼和浩特以西，乌海、巴盟、阿拉善除外）",
       "regions": [
         { "type": "province", "name": "山西" },
         { "type": "province", "name": "内蒙古", "label": "内蒙古（西部）", "excluded": ["乌海", "巴彦淖尔", "阿拉善盟"] }
